@@ -1,29 +1,33 @@
-package frc.robot.commands;
+package frc.robot.commands.ShooterIntake;
 
 import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.subsystems.ShooterIntakeSubsystem;
 
-public class IntakeBackoutCmd extends Command {
+public class ShootFlightsticksCmd extends Command{
+    
     private final ShooterIntakeSubsystem shooterIntakeSubsystem;
-    private final boolean backout;
+    private final boolean shoot;
+    
 
-    public IntakeBackoutCmd(ShooterIntakeSubsystem shooterIntakeSubsystem, boolean backout){
+    public ShootFlightsticksCmd(ShooterIntakeSubsystem shooterIntakeSubsystem, boolean shoot){
+        this.shoot = shoot;
         this.shooterIntakeSubsystem = shooterIntakeSubsystem;
-        this.backout = backout;
         addRequirements(shooterIntakeSubsystem);
     }
     @Override
     public void initialize() {
-        System.out.println("BackoutCmd started!");
+        System.out.println("ShooterIntakecmd started!");
     }
 
     @Override
     public void execute() {
-        shooterIntakeSubsystem.Backout(backout);
+        shooterIntakeSubsystem.Shoot(shoot);
     }
+
+
     @Override
     public void end(boolean interrupted) {
-        System.out.println("BackoutCmd ended!");
+        System.out.println("IntakeSetCmd ended!");
     }
 
     @Override

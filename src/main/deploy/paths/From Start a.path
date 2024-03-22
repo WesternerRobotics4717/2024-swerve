@@ -1,0 +1,95 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.8539035259888702,
+        "y": 2.024337866857552
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.853903525988872,
+        "y": 2.024337866857552
+      },
+      "isLocked": false,
+      "linkedName": "Start Far R"
+    },
+    {
+      "anchor": {
+        "x": 6.189946198074215,
+        "y": 2.2295702773223733
+      },
+      "prevControl": {
+        "x": 5.26136777947897,
+        "y": 1.3441815526152785
+      },
+      "nextControl": {
+        "x": 6.9922183480730595,
+        "y": 2.994527443600344
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.059343755051146,
+        "y": 5.951739903479806
+      },
+      "prevControl": {
+        "x": 7.36365954479068,
+        "y": 5.037632123559705
+      },
+      "nextControl": {
+        "x": 4.755027965311612,
+        "y": 6.865847683399908
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.8427505945920983,
+        "y": 7.621585424989032
+      },
+      "prevControl": {
+        "x": 1.833421848661879,
+        "y": 5.308056434294687
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Lift and shoot a",
+      "waypointRelativePos": 3.0,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": true,
+  "folder": "Score A",
+  "previewStartingState": {
+    "rotation": 175.5153939904554,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

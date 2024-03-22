@@ -1,0 +1,63 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.84,
+        "y": 7.62
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.7681206271503453,
+        "y": 6.726025815687995
+      },
+      "isLocked": false,
+      "linkedName": "Amp"
+    },
+    {
+      "anchor": {
+        "x": 2.9018362362424472,
+        "y": 5.48
+      },
+      "prevControl": {
+        "x": 1.4679599575828302,
+        "y": 5.293425081398267
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "C2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Run Intake",
+      "waypointRelativePos": 0.85,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Grab AP C",
+  "previewStartingState": {
+    "rotation": -91.78125565867553,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,19 @@
+{
+  "robotWidth": 0.69,
+  "robotLength": 0.82,
+  "holonomicMode": true,
+  "pathFolders": [
+    "Grab AP C",
+    "Grab AP F",
+    "Grab SP C",
+    "Grab SP F",
+    "Score S",
+    "Score A"
+  ],
+  "autoFolders": [],
+  "defaultMaxVel": 5.0,
+  "defaultMaxAccel": 5.0,
+  "defaultMaxAngVel": 540.0,
+  "defaultMaxAngAccel": 720.0,
+  "maxModuleSpeed": 5.0
+}

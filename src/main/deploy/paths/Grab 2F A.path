@@ -1,0 +1,95 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.84,
+        "y": 7.62
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.8054356108712217,
+        "y": 6.642067102316023
+      },
+      "isLocked": false,
+      "linkedName": "Amp"
+    },
+    {
+      "anchor": {
+        "x": 1.84,
+        "y": 4.085990717435981
+      },
+      "prevControl": {
+        "x": 1.749222220479749,
+        "y": 4.545014257970113
+      },
+      "nextControl": {
+        "x": 1.9267093079640705,
+        "y": 3.6475396587156816
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.240238298658415,
+        "y": 1.7724617267416358
+      },
+      "prevControl": {
+        "x": 2.8222689172651068,
+        "y": 2.0896390883690863
+      },
+      "nextControl": {
+        "x": 5.810198410534651,
+        "y": 1.4212864385587933
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.841134227723001,
+        "y": 2.472117671508071
+      },
+      "prevControl": {
+        "x": 6.841134227723001,
+        "y": 2.472117671508071
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "F2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Run Intake",
+      "waypointRelativePos": 2.75,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Grab AP F",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

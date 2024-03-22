@@ -1,0 +1,79 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.39784299924834,
+        "y": 5.48
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.3978429992483403,
+        "y": 5.48
+      },
+      "isLocked": false,
+      "linkedName": "Speaker"
+    },
+    {
+      "anchor": {
+        "x": 4.258895790518853,
+        "y": 1.9123929156949226
+      },
+      "prevControl": {
+        "x": 2.393748755452502,
+        "y": 2.607732819118781
+      },
+      "nextControl": {
+        "x": 6.385849862608816,
+        "y": 1.1194495116262966
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.841134227723001,
+        "y": 4.132634447087077
+      },
+      "prevControl": {
+        "x": 6.908259634701087,
+        "y": 4.151291938947515
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "F3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Run Intake",
+      "waypointRelativePos": 1.7,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Grab SP F",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

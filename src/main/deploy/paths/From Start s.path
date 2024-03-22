@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.8539035259888702,
+        "y": 2.024337866857552
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.8539035259888732,
+        "y": 2.024337866857552
+      },
+      "isLocked": true,
+      "linkedName": "Start Far R"
+    },
+    {
+      "anchor": {
+        "x": 1.544230724825086,
+        "y": 5.550603828480384
+      },
+      "prevControl": {
+        "x": 2.9155563765672983,
+        "y": 5.6065763040617
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Score S",
+  "previewStartingState": {
+    "rotation": 90.83031548625803,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

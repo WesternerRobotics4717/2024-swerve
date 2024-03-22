@@ -1,0 +1,63 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.39784299924834,
+        "y": 5.48
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.3978429992483408,
+        "y": 5.48
+      },
+      "isLocked": false,
+      "linkedName": "Speaker"
+    },
+    {
+      "anchor": {
+        "x": 2.9018362362424472,
+        "y": 5.48
+      },
+      "prevControl": {
+        "x": 1.9018362362424472,
+        "y": 5.48
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "C2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Run Intake",
+      "waypointRelativePos": 0.6,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -0.584234559690332,
+    "rotateFast": false
+  },
+  "reversed": true,
+  "folder": "Grab SP C",
+  "previewStartingState": {
+    "rotation": 3.288339963026809,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

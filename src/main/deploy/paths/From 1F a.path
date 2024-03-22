@@ -1,0 +1,68 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.813147989932344,
+        "y": 0.7462996744175311
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.628397256794513,
+        "y": 0.7276421825570925
+      },
+      "isLocked": false,
+      "linkedName": "F1"
+    },
+    {
+      "anchor": {
+        "x": 2.7756251876140117,
+        "y": 3.2837185674371354
+      },
+      "prevControl": {
+        "x": 3.9016601242293403,
+        "y": 1.7515711374604575
+      },
+      "nextControl": {
+        "x": 1.6495902509986835,
+        "y": 4.8158659974138125
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.84,
+        "y": 7.62
+      },
+      "prevControl": {
+        "x": 1.82409310273166,
+        "y": 6.595423372664927
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Amp"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": true,
+  "folder": "Score A",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
