@@ -3,15 +3,15 @@ package frc.robot.commands.ShooterIntake;
 import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.subsystems.ShooterIntakeSubsystem;
 
-public class ShootFlightsticksCmd extends Command{
+public class ShootampFlightsticksCmd extends Command{
     
     private final ShooterIntakeSubsystem shooterIntakeSubsystem;
-    private final boolean shoot;
+    private final boolean shootamp;
 
     
 
-    public ShootFlightsticksCmd(ShooterIntakeSubsystem shooterIntakeSubsystem, boolean shoot){
-        this.shoot = shoot;
+    public ShootampFlightsticksCmd(ShooterIntakeSubsystem shooterIntakeSubsystem, boolean shootamp){
+        this.shootamp = shootamp;
         this.shooterIntakeSubsystem = shooterIntakeSubsystem;
         addRequirements(shooterIntakeSubsystem);
     }
@@ -22,7 +22,7 @@ public class ShootFlightsticksCmd extends Command{
 
     @Override
     public void execute() {
-        shooterIntakeSubsystem.Shoot(shoot);
+        shooterIntakeSubsystem.Shootamp(shootamp);
     }
 
 

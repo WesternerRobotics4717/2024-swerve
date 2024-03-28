@@ -5,21 +5,21 @@ import frc.robot.subsystems.CameraSubsystem;
 
 public class CamCmd extends Command{
     private final CameraSubsystem CameraSubsystem;
-    private final boolean turn;
 
-    public CamCmd(CameraSubsystem cameraSubsystem, boolean turn){
-        this.CameraSubsystem = cameraSubsystem;
-        this.turn = turn; 
+
+    public CamCmd(CameraSubsystem cameraSubsystem){
+        this.CameraSubsystem = cameraSubsystem; 
         addRequirements(cameraSubsystem);
     }
     @Override
     public void initialize() {
         System.out.println("camOn!");
+        CameraSubsystem.RunCams();
     }
 
     @Override
     public void execute() {
-        CameraSubsystem.RunCams(turn);
+       
     }
     @Override
     public void end(boolean interrupted) {

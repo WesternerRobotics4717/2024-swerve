@@ -13,22 +13,17 @@ import edu.wpi.first.cscore.UsbCamera;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 
-
 public class CameraSubsystem extends SubsystemBase{
     private Thread m_visionThread;
+  public static float sped;
 
-
-    public CameraSubsystem(){
-
-    }
+    public CameraSubsystem(){}
 
     @Override
-    public void periodic() {
+    public void periodic() {}
 
-    }
-
-    public void RunCams(boolean turn){
-        if(turn){
+    public void RunCams(){
+        
             m_visionThread =
         new Thread(
             () -> {
@@ -68,6 +63,14 @@ public class CameraSubsystem extends SubsystemBase{
     m_visionThread.start();
 
   }
+
+  public void Defence(boolean yeas){
+    if(yeas){
+      sped = 0;
+    }else{
+      sped = 2;
+    }
+  }
 }
-}
+
 
