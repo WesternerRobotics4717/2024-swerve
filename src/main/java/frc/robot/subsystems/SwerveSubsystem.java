@@ -91,9 +91,9 @@ public void stopModules() {
 
 public void setModuleStates(SwerveModuleState[] desiredStates) {
     SwerveDriveKinematics.desaturateWheelSpeeds(desiredStates, DriveConstants.kPhysicalMaxSpeedMetersPerSecond);
-    frontLeft.setDesiredState(desiredStates[2]);
-    frontRight.setDesiredState(desiredStates[3]);
-    backLeft.setDesiredState(desiredStates[0]);
+    frontLeft.setDesiredState(desiredStates[3]);
+    frontRight.setDesiredState(desiredStates[0]);
+    backLeft.setDesiredState(desiredStates[2]);
     backRight.setDesiredState(desiredStates[1]);
  }
 }

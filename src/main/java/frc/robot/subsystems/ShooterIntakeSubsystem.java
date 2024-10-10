@@ -20,7 +20,7 @@ public class ShooterIntakeSubsystem extends SubsystemBase{
     public void Shoot(boolean shoot){
         ShooterTop.setSmartCurrentLimit(45);
         ShooterBottom.setSmartCurrentLimit(45);
-   
+
 
 
         if(!shoot){
